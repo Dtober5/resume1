@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damien Tober</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header class="topbar">
+      <!-- Removed gradient-text class -->
+      <a href="index.html" class="logo">Damien Tober</a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+        <button id="dark-mode-toggle">🌙</button>
+      </nav>
+    </header>
+
+    <main class="section home-section">
+      <div class="title-block">
+        <h1 class="gradient-text">Hi, I'm Damien Tober</h1>
+      </div>
+
+      <div class="chart-text-wrap">
+        <div class="chart-container">
+          <canvas id="skillsChart" width="400" height="400"></canvas>
+        </div>
+        <div class="description">
+          <p><strong>Motivated full-stack developer in training</strong> with <strong>strong front-end development skills in HTML and CSS</strong>, currently <strong>advancing proficiency in JavaScript</strong>. Pursuing a <strong>Digital Media A.A.S. at Northwest Vista College</strong> with goals of building a digital media business. <strong>Passionate about helping brands grow through data-driven web solutions, SEO, and clean, responsive design.</strong></p>
+          <h3>Technical Skills</h3>
+          <ul>
+            <li><strong>Languages:</strong> HTML5, CSS3, JavaScript (in progress)</li>
+            <li><strong>Tools & Platforms:</strong> Git/GitHub, WordPress, Adobe XD</li>
+            <li><strong>Other:</strong> Responsive Web Design, SEO Optimization (Yoast, Google)</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>📧 damientober@gmail.com</div>
+        <div>📞 (210) 992-0328</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
